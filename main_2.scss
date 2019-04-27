@@ -1,0 +1,53 @@
+/* Code used up to 1:38 in the video*/
+@function pxToEm($value, $base) {
+    @return ($value / $base) + em;
+}
+
+
+hi {
+    font-size: pxToEm(32,16);
+}
+
+
+/* Code used beyond that point */
+$blue: #0997d3;
+$red: #e84610;
+$green: #bada55;
+$black: #000000;
+$white: #ffffff;
+
+$colors: (
+    black: #000000,
+    red: #e84610,
+    green: #bada55,
+);
+
+@each $key, $value in $colors {
+    item-#{$key} {
+        background-color: $value;
+    }
+}
+
+
+$width: 300px;
+$height: 500px;
+
+body {
+    background-color: $black;
+}
+
+div {
+    width: $width;
+    height: $height;
+    border: 1px solid $black;
+}
+
+h1 {
+    color: $white;
+}
+
+$class: container;
+
+div.#{$class} {
+    background-color: orange;
+}

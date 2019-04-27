@@ -1,0 +1,29 @@
+/* Code used up to 1:38 in the video*/
+hi {
+  font-size: 2em; }
+
+/* Code used beyond that point */
+item-black {
+  background-color: #000000; }
+
+item-red {
+  background-color: #e84610; }
+
+item-green {
+  background-color: #bada55; }
+
+body {
+  background-color: #000000; }
+
+div {
+  width: 300px;
+  height: 500px;
+  border: 1px solid #000000; }
+
+h1 {
+  color: #ffffff; }
+
+div.container {
+  background-color: orange; }
+
+/*# sourceMappingURL=main_2.css.map */

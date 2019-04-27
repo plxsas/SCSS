@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGI,OAAsB;EAClB,KAAK,EAAE,IAAS;;AADpB,OAAsB;EAClB,KAAK,EAAE,IAAS;;AADpB,OAAsB;EAClB,KAAK,EAAE,IAAS;;AADpB,OAAsB;EAClB,KAAK,EAAE,IAAS;;AAepB,SAAa;EACT,gBAAgB,EAVd,OAAO;;AASb,QAAa;EACT,gBAAgB,EATf,OAAO;;AAQZ,UAAa;EACT,gBAAgB,EARb,OAAO;;AAOd,UAAa;EACT,gBAAgB,EAPb,OAAO;;AAMd,UAAa;EACT,gBAAgB,EANb,OAAO",
+"sources": ["second_challenges.scss"],
+"names": [],
+"file": "second_challenges.css"
+}

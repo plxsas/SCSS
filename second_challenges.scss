@@ -1,0 +1,23 @@
+$class-name: item;
+
+@for $i from 1 through 4 {
+    .#{$class-name}-#{$i} {
+        width: 60px + $i;
+    }
+}
+
+
+$colors: (
+    blue: #0997d3,
+    red: #e84610,
+    green: #bada55,
+    black: #000000,
+    white: #ffffff,
+);
+
+
+@each $key, $value in $colors {
+    item-#{$key} {
+        background-color: $value;
+    }
+}
